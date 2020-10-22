@@ -1,0 +1,120 @@
+
+.testimonial-sec #test-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
+}
+.testimonial-sec #test-header path{
+    fill: #EEE;
+}
+.testimonial-sec #test-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.testimonial-sec #test-footer path{
+    fill: #EEE;
+}
+.testimonial-sec #test-footer{}
+.testimonial-sec .heading-details span{
+    display: block;
+    width: 6%;
+    background-color: #2d2d2d;
+    height: 3px;
+    margin: 10px auto;
+}
+.testimonial-sec .testimonial-review .review-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 9px 10px 10px;
+    border: solid 1px #79a207;
+
+}
+.testimonial-sec .testimonial-review .review-image img{
+    border-radius: 50%;
+    width: 100%;
+}
+.testimonial-sec .testimonial-review .review-detail .test-heading{
+    color: #2d2d2d;
+    font-size: 28px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.testimonial-sec .testimonial-review .review-detail .text-des{
+    color: #2d2d2d;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    opacity: .8;
+    font-weight: 300;
+}
+.testimonial-sec .testimonial-review .review-detail ul.test-review{
+    padding-left: 0;
+}
+.testimonial-sec .testimonial-review .review-detail ul.test-review li{
+    list-style: none;
+    display: inline-block;
+}
+.testimonial-sec .testimonial-review .review-detail ul.test-review li i{
+    font-size: 20px;
+    color: #f0cb3d;
+}
+.testimonial-sec .testimonial-review{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimonial-sec .testimonial-review .client-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #79a207;
+    font-weight: 600;
+    margin-bottom: 0;
+    display: inline-block;
+    font-style: italic;
+}
+
+.client-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.testimonial-sec .testimonial-review .client-info .client-designation{
+    color: #888;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 0;
+    font-style: italic;
+}
+.testimonial-sec .container{
+    position: relative;
+}
+.testimonial-sec .test-btn{
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    color: #2d2d2d;
+    font-size: 32px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.testimonial-sec .test-btn#customNextBtn{
+    right: -30px;
+}
+.testimonial-sec .test-btn#customPrevBtn{
+    left: -30px;
+}
+.testimonial-sec .test-btn:hover{
+    color: #79a207 !important;
+}
